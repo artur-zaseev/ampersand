@@ -1,0 +1,3 @@
+/* ICONS */
+.delivery_ellipse {cx: 0; cy: 0; transition: .10s ease-in-out;}
+.delivery_ellipse.activ  {cx: 222.163; cy: 192.914; transition: .15s ease-in-out;}

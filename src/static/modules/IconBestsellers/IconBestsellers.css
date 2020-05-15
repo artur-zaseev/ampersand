@@ -1,0 +1,3 @@
+/* ICONS */
+.ellipse {transform: translate(100%, 100%); transition: .10s ease-in-out;}
+.ellipse.activ {transform: translate(0%, 0%) scale(1.2); transition: .15s ease-in-out;}

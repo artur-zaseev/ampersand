@@ -1,0 +1,19 @@
+.line1, .line2, .line3 {
+  transition: all 0.3s ease;
+}
+
+.open1 {
+  transform-origin: top left;
+  transform: translatex(3px) translatey(-1px) rotate(40deg);
+  width: 44px;
+}
+
+.open2 {
+  opacity: 0;
+}
+
+.open3 {
+  transform-origin: bottom left;
+  transform: translatex(3px) translatey(1px) rotate(-40deg);
+  width: 44px;
+} 

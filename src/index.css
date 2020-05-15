@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "RFTone";
+  src: url("./static/fonts/RFTone/regular/rftone-regular.eot");
+  src: url("./static/fonts/RFTone/regular/rftone-regular.eot?#iefix") format("embedded-opentype"), 
+  url("./static/fonts/RFTone/regular/rftone-regular.woff") format("woff"),
+  url("./static/fonts/RFTone/regular/rftone-regular.ttf") format("truetype"), 
+  url("./static/fonts/RFTone/regular/rftone-regular.svg#RFTone") format("svg");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "RFTone";
+  src: url("./static/fonts/RFTone/light/rftone-light.eot");
+  src: url("./static/fonts/RFTone/light/rftone-light.eot?#iefix") format("embedded-opentype"), 
+  url("./static/fonts/RFTone/light/rftone-light.woff") format("woff"),
+  url("./static/fonts/RFTone/light/rftone-light.ttf") format("truetype"), 
+  url("./static/fonts/RFTone/light/rftone-light.svg#RFTone") format("svg");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "RFTone";
+  src: url("./static/fonts/RFTone/bold/rftone-bold.eot");
+  src: url("./static/fonts/RFTone/bold/rftone-bold.eot?#iefix") format("embedded-opentype"), 
+  url("./static/fonts/RFTone/bold/rftone-bold.woff") format("woff"),
+  url("./static/fonts/RFTone/bold/rftone-bold.ttf") format("truetype"), 
+  url("./static/fonts/RFTone/bold/rftone-bold.svg#RFTone") format("svg");
+  font-weight: bold;
+}
+
+:root {
+  --bg-color-main: #daf8fd;
+  --bg-color-sec: #452f6b;
+  --bg-color-part: #ccabd8;
+  --bg-color-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html,
+body {
+  width: 100vw;
+  min-height: 100vh;
+  font-size: 25px;
+  font-family: "RFTone";
+  line-height: 1;
+  overflow-x: hidden;
+}
+
+button, input, textarea {
+  -webkit-appearance: none;
+  font-family: "RFTone";
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
